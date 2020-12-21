@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Textview"
+        android:layout_width="435dp"
+        android:layout_height="70dp"
+        android:text="SIGN UP"
+        android:textSize="25dp"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/teal_200"
+        android:textStyle="bold"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/txtcnic"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="55dp"
+        android:inputType="number"
+        android:hint="CNIC"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <EditText
+        android:id="@+id/txtphone"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"
+        android:hint="Phone"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <EditText
+        android:id="@+id/txtaddress"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"
+        android:inputType="textPostalAddress"
+        android:hint="Address"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <Button
+        android:id="@+id/txtbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="170dp"
+        android:text="Submit"
+        app:backgroundTint="@color/teal_200"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="640dp" />
+</LinearLayout>
