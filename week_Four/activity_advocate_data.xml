@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AdvocateData">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/white">
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_menu"
+            android:background="@drawable/buttonnn"
+            >
+        </ImageButton>
+
+
+        <TextView
+            android:id="@+id/txtheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:text="Advocate Info"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="64dp"
+            android:src="@drawable/ic_logout"
+            android:onClick="lllog"
+            android:background="@drawable/buttonnn"
+            >
+        </ImageButton>
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_person"
+                android:background="@drawable/profileimg"
+                ></ImageButton>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="170dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameadvo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textSize="30dp"
+                android:gravity="center"></TextView>
+
+            <TextView
+                android:id="@+id/experience"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="05dp"
+                android:text="Experience Duration"
+                android:textSize="15dp"
+                android:gravity="center"></TextView>
+            <TextView
+                android:id="@+id/expert"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="05dp"
+                android:text="Expert In"
+                android:textSize="15dp"
+                android:gravity="center"></TextView>
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#7C7A7A">
+    </TextView>
+
+<TextView
+    android:layout_width="330dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:layout_height="50dp"
+    android:background="@drawable/round"
+    android:text="City...."
+    android:textSize="20dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="20dp"
+
+    ></TextView>
+    <TextView
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round"
+        android:text="Education...."
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round"
+        android:text="Email...."
+        android:textSize="20dp"
+       android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+
+        ></TextView>
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="150dp"
+        android:background="@drawable/round"
+        android:text="Description...."
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonround"
+        android:gravity="center"
+        android:text="Conatact"
+        app:backgroundTint="@color/teal_200"></Button>
+
+
+
+</LinearLayout>
