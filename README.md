@@ -33,12 +33,12 @@ If you are to using this code, please fulfill the following requirements mention
 
 **How to Run**
 
-> Download the whole file in ZIP format.
-> Extract the ZIP file anywhere you prefer.
-> Make sure you have completed all the requirements as above.
-> Open your Android studio 
-> Go to >file >Open 
-> Browse the exact location of the project
-> Press "Ok"
-> wait for the gradle to built...
-> Once the Gradle is build you can start the project.
+1) Download the whole file in ZIP format.
+2) Extract the ZIP file anywhere you prefer.
+3) Make sure you have completed all the requirements as above.
+4) Open your Android studio 
+5) Go to >file >Open 
+6) Browse the exact location of the project
+7) Press "Ok"
+8) wait for the gradle to built...
+9) Once the Gradle is build you can start the project.
