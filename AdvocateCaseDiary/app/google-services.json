@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "236236531869",
+    "project_id": "advocate-case-diary",
+    "storage_bucket": "advocate-case-diary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236236531869:android:00439129f3a6673141cc74",
+        "android_client_info": {
+          "package_name": "com.example.acd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236236531869-m7ntu6s3nmprtujpmtk1c4lgv43omt2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwlcIV8hW4FdYujs51fqeVqGd7ja9G6Cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236236531869-m7ntu6s3nmprtujpmtk1c4lgv43omt2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236236531869:android:53b861f97c331f0e41cc74",
+        "android_client_info": {
+          "package_name": "com.example.advocatecasediary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236236531869-m7ntu6s3nmprtujpmtk1c4lgv43omt2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwlcIV8hW4FdYujs51fqeVqGd7ja9G6Cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236236531869-m7ntu6s3nmprtujpmtk1c4lgv43omt2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

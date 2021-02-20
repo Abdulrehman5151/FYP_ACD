@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <TextView
+        android:id="@+id/txtheadingone"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Signup"
+        android:textColor="#9F9D9D"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="45dp"></TextView>
+
+
+    <EditText
+        android:id="@+id/txtemailone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="90dp"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:background="@drawable/round"
+        android:layout_gravity="center"
+        android:hint="Email"
+        ></EditText>
+    <EditText
+        android:id="@+id/txtpassone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:inputType="textPassword"
+        android:background="@drawable/round"
+        android:layout_gravity="center"
+        android:hint="Password"
+        ></EditText>
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buttonround"
+        android:gravity="center"
+        android:text="Submit"
+        app:backgroundTint="@color/teal_200"></Button>
+
+    <TextView
+        android:id="@+id/txtlinkone"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Already Register ? Login Here"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        ></TextView>
+
+
+</LinearLayout>

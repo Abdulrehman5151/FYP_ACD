@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtheading"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Signup"
+        android:textStyle="bold"
+        android:textColor="#9F9D9D"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="45dp"></TextView>
+
+    <EditText
+        android:id="@+id/txtname"
+        android:inputType="text"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round"
+        android:hint="User Name"
+        ></EditText>
+    <EditText
+        android:id="@+id/txtcnic"
+        android:inputType="text"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round"
+        android:hint="Cnic"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:background="@drawable/round"
+        android:layout_gravity="center"
+        android:hint="Email"
+        ></EditText>
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:inputType="textPassword"
+        android:background="@drawable/round"
+        android:layout_gravity="center"
+        android:hint="Password"
+        ></EditText>
+    <EditText
+        android:id="@+id/txtphone"
+        android:layout_width="300dp"
+        android:paddingLeft="15dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round"
+        android:inputType="phone"
+        android:hint="Phone"
+        ></EditText>
+    <EditText
+        android:id="@+id/txtaddress"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:layout_gravity="center"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        ></EditText>
+
+    <Button
+        android:id="@+id/txtbutton"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/buttonround"
+        android:gravity="center"
+        android:text="Submit"
+        app:backgroundTint="@color/teal_200"></Button>
+
+    <TextView
+        android:id="@+id/txtlink"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Already Register ? Login Here"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        ></TextView>
+
+
+</LinearLayout>
