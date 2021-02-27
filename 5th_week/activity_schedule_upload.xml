@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleUpload">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/txtheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="ADVOCATE CASE DIARY"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <ImageButton
+        android:id="@+id/btnicon"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+       android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/upload"
+        android:background="@drawable/image"
+        ></ImageButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Upload Schedule"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        ></TextView>
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/txtfilename"
+        android:layout_gravity="center"
+        android:paddingLeft="15dp"
+        android:background="@drawable/round"
+        android:layout_marginTop="40dp"
+        android:hint="File Name"
+        ></EditText>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="UPLOAD"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/BtnFileUpload"
+        android:background="@drawable/buttonround"
+        ></Button>
+
+</LinearLayout>
